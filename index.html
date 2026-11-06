@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuego Restaurante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="menu-entry">
+      <img
+        class="menu-entry-cover"
+        src="Menu_Fuego_Octubre26_6pag_v6.pdf.webp"
+        alt="Portada del menú de Fuego Restaurante"
+      />
+      <button class="btn btn-primary menu-entry-button" type="button" id="open-menu">
+        Abrir menú
+      </button>
+    </header>
+
+    <main id="menu" class="container menu-wrap" hidden>
+      <section class="section-title menu-heading">
+        <div>
+          <div class="print-brand">
+            <img src="701480058_18040377338594333_959046128341484008_n.jpg" alt="" />
+            <span>Fuego Restaurante</span>
+          </div>
+          <p class="eyebrow">Fuego Restaurante</p>
+          <h2>Nuestra carta</h2>
+          <p class="demo-note">Propuesta demo · platos y precios ilustrativos, sujetos a confirmación.</p>
+        </div>
+      </section>
+
+      <div class="menu-grid">
+        <section id="entradas" class="menu-section">
+          <h3>Entradas</h3>
+          <article class="item">
+            <div>
+              <h4>Bravas Fuego</h4>
+              <p>Papas crocantes, salsa brava y alioli</p>
+            </div>
+            <span>$6.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Queso Provenzal</h4>
+              <p>Queso fundido con ajo, perejil y pan tostado</p>
+            </div>
+            <span>$8.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Mini Empanadas</h4>
+              <p>6 unidades de carne, humita o queso</p>
+            </div>
+            <span>$9.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Rabas Fuego</h4>
+              <p>Anillos de calamar crocantes con limón</p>
+            </div>
+            <span>$12.000</span>
+          </article>
+        </section>
+
+        <section id="pizzas" class="menu-section">
+          <h3>Pizzas</h3>
+          <article class="item">
+            <div>
+              <h4>Pizza Margherita</h4>
+              <p>Salsa de tomate, mozzarella y albahaca</p>
+            </div>
+            <span>$12.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Pizza Jamón y Morrón</h4>
+              <p>Mozzarella, jamón, morrón y aceitunas</p>
+            </div>
+            <span>$14.000</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Pizza Especial Fuego</h4>
+              <p>Mozzarella, carne, cebolla caramelizada y salsa picante</p>
+            </div>
+            <span>$16.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Pizza Cuatro Quesos</h4>
+              <p>Muzzarella, provolone, roquefort y parmesano</p>
+            </div>
+            <span>$17.000</span>
+          </article>
+        </section>
+
+        <section id="pastas" class="menu-section">
+          <h3>Pastas</h3>
+          <article class="item">
+            <div>
+              <h4>Spaghetti al Pomodoro</h4>
+              <p>Salsa casera, ajo y albahaca</p>
+            </div>
+            <span>$13.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Tagliatelle Alfredo</h4>
+              <p>Crema, parmesano y pimienta negra</p>
+            </div>
+            <span>$15.000</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Ravioles de Ricota</h4>
+              <p>Salsa bolognesa o fileto</p>
+            </div>
+            <span>$16.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Lasagna Casera</h4>
+              <p>Salsa boloñesa y queso gratinado</p>
+            </div>
+            <span>$18.000</span>
+          </article>
+        </section>
+
+        <section id="parrilla" class="menu-section">
+          <h3>Parrilla</h3>
+          <article class="item">
+            <div>
+              <h4>Bife de Chorizo</h4>
+              <p>Cocción a elección con papas o ensalada</p>
+            </div>
+            <span>$24.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Lomo a la Pimienta</h4>
+              <p>Acompañado por vegetales salteados</p>
+            </div>
+            <span>$22.000</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Costillas BBQ</h4>
+              <p>A fuego lento con papas rústicas</p>
+            </div>
+            <span>$19.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Churrasco Fuego</h4>
+              <p>Corte premium con salsas caseras</p>
+            </div>
+            <span>$26.000</span>
+          </article>
+        </section>
+
+        <section id="hamburguesas" class="menu-section">
+          <h3>Hamburguesas</h3>
+          <article class="item">
+            <div>
+              <h4>Burger Clásica</h4>
+              <p>Carne, queso cheddar, tomate y lechuga</p>
+            </div>
+            <span>$13.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Burger Doble</h4>
+              <p>Doble carne, cheddar y cebolla crispy</p>
+            </div>
+            <span>$16.000</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Burger Fuego</h4>
+              <p>Carne, bacon, cheddar y salsa barbacoa</p>
+            </div>
+            <span>$18.000</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Chicken Burger</h4>
+              <p>Pollo crispy, lechuga, tomate y salsa especial</p>
+            </div>
+            <span>$14.500</span>
+          </article>
+        </section>
+
+        <section id="postres" class="menu-section">
+          <h3>Postres</h3>
+          <article class="item">
+            <div>
+              <h4>Flan casero</h4>
+              <p>Clásico y suave</p>
+            </div>
+            <span>$4.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Chocotorta</h4>
+              <p>Clásica y cremosa</p>
+            </div>
+            <span>$5.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Brownie con helado</h4>
+              <p>Chocolate y calor</p>
+            </div>
+            <span>$6.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Panqueques</h4>
+              <p>Con dulce de leche</p>
+            </div>
+            <span>$6.500</span>
+          </article>
+        </section>
+
+        <section id="bebidas" class="menu-section">
+          <h3>Bebidas</h3>
+          <article class="item">
+            <div>
+              <h4>Gaseosas</h4>
+              <p>Coca-Cola, Sprite o Fanta</p>
+            </div>
+            <span>$1.800</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Agua mineral</h4>
+              <p>Con o sin gas</p>
+            </div>
+            <span>$1.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Cerveza artesanal</h4>
+              <p>Variedades según disponibilidad</p>
+            </div>
+            <span>$4.500</span>
+          </article>
+          <article class="item">
+            <div>
+              <h4>Vino de la casa</h4>
+              <p>Tinto o blanco</p>
+            </div>
+            <span>$6.500</span>
+          </article>
+        </section>
+      </div>
+
+      <section id="reservas" class="reservation-box">
+        <div>
+          <p class="eyebrow">Te esperamos</p>
+          <h3>El fuego permanece encendido.</h3>
+        </div>
+        <div class="reservation-meta">
+          <p>📷 @fuego.resto1</p>
+          <p>⏰ 08:00 a 01:00 hs</p>
+          <p>Lunes a lunes</p>
+        </div>
+      </section>
+    </main>
+    <script>
+      const openMenuButton = document.querySelector("#open-menu");
+      const menu = document.querySelector("#menu");
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+      openMenuButton.addEventListener("click", () => {
+        menu.hidden = false;
+        document.body.classList.add("menu-open");
+        history.replaceState(null, "", "#menu");
+        menu.scrollIntoView({
+          behavior: prefersReducedMotion.matches ? "auto" : "smooth",
+          block: "start",
+        });
+      });
+    </script>
+  </body>
+</html>
